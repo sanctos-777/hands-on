@@ -1,15 +1,29 @@
-/** font **/
+/*Font */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-/**componentes**/
-@import 'header.css';
-/**reset css**/
+/*Componentes */
+@import 'hearder.css';
+@import 'buttons.css';
+
+/*Reset css */
 *{
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline;
- text-decoration: none;
- font-family: "Source Code Pro", monospace;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: "Source Code Pro", monospace;
+}
+.container
+{
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.row
+{
+    display: flex; 
+    flex-direction: row; 
 }

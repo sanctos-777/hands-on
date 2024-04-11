@@ -1,21 +1,16 @@
-header
-{
-   width: 1024px;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+header section{   
+    
+    justify-content: space-between;
+    align-items: center;
 }
+
 header nav ul
 {
     display: flex;
     flex-direction: row;
     list-style: none;
-    
 }
-header nav li
+header nav ul li
 {
     padding: 15px;
-    
 }
