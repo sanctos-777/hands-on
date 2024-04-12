@@ -1,0 +1,11 @@
+/*Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/*Componentes */
+@import 'bootstrap.css';
+@import 'header.css';
+@import 'buttons.css';
+@import 'main.css';
+@import'footer.css';
+@import 'resposive-background.css';
+@import 'responsive-elements.css';
+/*Reset css */
